@@ -1,0 +1,32 @@
+$size-xs: 576px;
+$size-sm: 768px;
+$size-md: 992px;
+$size-lg: 1920px;
+
+@mixin media-breakpoint-up($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+@mixin media-breakpoint-down($breakpoint) {
+  @media (max-width: $breakpoint - 1) {
+    @content;
+  }
+}
+@mixin media-breakpoint-between($breakpoint, $breakpoint2) {
+  @media (min-width: $breakpoint) and (max-width: $breakpoint2 - 1) {
+    @content;
+  }
+}
+
+@mixin not-mobile{
+    @include media-breakpoint-up($size-sm){
+        @content;
+      }
+}
+
+@mixin mobile{
+  @include media-breakpoint-down($size-sm){
+    @content;
+  }
+}

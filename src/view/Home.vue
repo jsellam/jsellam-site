@@ -1,6 +1,5 @@
 <template>
   <div class="home-view">
-    hello home
     <project-list :items="items"></project-list>
   </div>
 </template>

@@ -1,0 +1,23 @@
+@import './common/fonts.scss';
+@import './common/sizes.scss';
+@import './common/theme.scss';
+
+
+html, body{
+    padding:0;
+    margin:0;
+    font-family: $font-gotham-book;
+}
+
+body{
+    background-color:$background-color;
+}
+
+#app > .wrapper{
+    max-width: 980px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+@import './components/ProjectItem.scss'

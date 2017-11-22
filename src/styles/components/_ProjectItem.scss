@@ -1,0 +1,85 @@
+.project-item{
+    position:relative;
+    margin-bottom:2em;
+}
+
+img{
+    width:100%;
+}
+
+.title{
+    position:absolute;
+    background-color: $title-background;
+    left: 0.8em;
+    top:0.8em;
+    padding: 0.0em 1.0em;
+    padding-top:0.2em;
+    vertical-align: center;
+    line-height: 3em;
+    height:3em;
+   
+    > span{
+        text-transform: uppercase;
+        font-family: $font-gotham-black;
+        font-size:2em;
+        color:$title-color;
+    }
+}
+
+.info-container{
+    position:absolute;
+    left: 0.8em;
+    top:4.5em;
+    vertical-align: center;
+}
+
+.info{
+    background-color: $info-background;
+    color:$info-color;
+    font-size:1em;
+    padding: 0.4em 0.4em;
+    padding-bottom:0.2em;
+    text-transform: uppercase;
+    display:inline-block;
+    line-height:1.2em;
+}
+
+
+
+
+.tag-container{
+    position: absolute;
+    bottom:0.8em;
+    left:0.8em;
+    right:1em;
+    font-size:1em;
+}
+
+.tag{
+    background-color: $tag-background;
+    color:$tag-color;
+    text-decoration: none;
+    margin-right: 0.3em;
+    padding:0.3em 0.3em;
+    padding-bottom:0.2em;
+    font-size: 1em;
+    cursor: pointer;
+    transition:background-color 0.2s, color 0.2s;
+    display:inline-block;
+}
+
+.tag:hover{
+    background-color: $tag-background-hover;
+    color:$tag-color-hover;
+}
+
+.link{
+    cursor: pointer;
+    color:$info-color;
+    transition:color 0.2s;
+}
+
+.link:hover{
+    color:$info-color-hover;
+}
+

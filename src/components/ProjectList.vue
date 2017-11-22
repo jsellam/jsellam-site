@@ -1,6 +1,5 @@
 <template>
   <div class="project-list">
-      this is the project list
       <project-item v-for="item in items" key="item.title" :item="item"></project-item>
   </div>
 </template>

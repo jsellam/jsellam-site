@@ -7,9 +7,9 @@
             "banner":"armytruckdriver.jpg",
             "tags":["unity","android","ios","windowsphone","game","pollop-studio"],
             "links":[
-                {"title":"Vidéo","url":""},
-                {"title":"Play store","url":"https://play.google.com/store/apps/details?id=com.pollop.armytruckdriver2"},
-                {"title":"App store","url":"https://itunes.apple.com/us/app/army-trucks-driver-2-new-army-jeep-rider-game/id1001539514?mt=8"}
+                {"type":"icon-android","url":"http://google.com"},
+                {"type":"icon-apple","url":"https://play.google.com/store/apps/details?id=com.pollop.armytruckdriver2"},
+                {"type":"icon-apple","url":"https://itunes.apple.com/us/app/army-trucks-driver-2-new-army-jeep-rider-game/id1001539514?mt=8"}
             ]
         },
         {
