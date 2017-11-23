@@ -11,6 +11,10 @@ html, body{
 
 body{
     background-color:$background-color;
+
+    @include mobile{
+        background-color: #FFFFFF;
+    }
 }
 
 #app > .wrapper{
