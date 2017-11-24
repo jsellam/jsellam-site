@@ -3,21 +3,19 @@
         {
             "title":"Louis Vuitton - Gift factory",
             "legend":"A Pixijs website for Louis Vuitton",
-            "date":"2015-11",
+            "date":"2016-11",
             "banner":"giftfactory.jpg",
-            "tags":["webgl","threejs","procedural"],
+            "tags":["webgl","pixijs","frontend"],
             "links":[
-                {"type":"icon-android","url":"http://google.com"},
-                {"type":"icon-apple","url":"https://play.google.com/store/apps/details?id=com.pollop.armytruckdriver2"},
-                {"type":"icon-apple","url":"https://itunes.apple.com/us/app/army-trucks-driver-2-new-army-jeep-rider-game/id1001539514?mt=8"}
+                {"type":"icon-youtube-play","url":"https://youtu.be/8pqL3kDHi1k"}
             ]
         },
         {
             "title":"Samsung Lifechanger",
             "legend":"360 website for Samsung",
-            "date":"2015-11",
+            "date":"2016-05",
             "banner":"lifechanger.jpg",
-            "tags":["webgl","threejs","procedural"],
+            "tags":["webgl","threejs","frontend"],
             "links":[
                 {"type":"icon-youtube-play","url":"https://youtu.be/PnlRN3KOFms"}
             ]
@@ -25,10 +23,11 @@
         {
             "title":"Evian - Baby surf",
             "legend":"VR game with 360 interactive video",
-            "date":"2015-11",
+            "date":"2016-04",
             "banner":"babysurf.jpg",
-            "tags":["webgl","threejs","procedural"],
+            "tags":["unity","3D","VR","android"],
             "links":[
+                {"type":"icon-youtube-play","url":"https://youtu.be/sBCCEj3T6A0"},
                 {"type":"icon-android","url":"https://play.google.com/store/apps/details?id=com.evian.babies"},
                 {"type":"icon-apple","url":"https://itunes.apple.com/fr/app/evian-babysurf/id1008710580?mt=8"}
             ]
@@ -36,7 +35,7 @@
         {
             "title":"Procedural war",
             "legend":"Webgl animation",
-            "date":"2015-11",
+            "date":"2016-02",
             "banner":"proceduralwar.jpg",
             "tags":["webgl","threejs","procedural"],
             "links":[
@@ -70,7 +69,7 @@
         {
             "title":"Innovation - Age of crafting",
             "legend":"Puzzle game made with unity",
-            "date":"2015-11",
+            "date":"2015-08",
             "banner":"innovation.jpg",
             "tags":["unity","android","ios","windowsphone","game"],
             "links":[
@@ -80,39 +79,34 @@
             ]
         },
         {
-            "title":"leschinois.com",
-            "legend":"Stage 3D website",
-            "date":"2015-11",
-            "banner":"chinois.jpg",
-            "tags":["flash","actionscript","3D","frontend"],
-            "links":[
-                {"type":"icon-youtube-play","url":"https://youtu.be/OSHWVWz3QWk"}
-            ]
-        },
-       
-        {
             "title":"Landscape shader",
             "legend":"water shader + heightmap",
-            "date":"2015-11",
+            "date":"2014-11",
             "banner":"landscape.jpg",
             "tags":["flash","actionscript","3D"],
             "links":[
                 {"type":"icon-youtube-play","url":"https://youtu.be/1Yafz5BjqPU"}
             ]
-            
         },
         {
             "title":"Under water shader",
             "legend":"Under water shader + heightmap",
-            "date":"2015-11",
+            "date":"2014-11",
             "banner":"underwater.jpg",
             "tags":["flash","actionscript","3D"],
             "links":[
                 {"type":"icon-youtube-play","url":"https://youtu.be/hPFUmNkM8GI"}
+            ]  
+        },
+        {
+            "title":"leschinois.com",
+            "legend":"Stage 3D website",
+            "date":"2014-09",
+            "banner":"chinois.jpg",
+            "tags":["flash","actionscript","3D","frontend"],
+            "links":[
+                {"type":"icon-youtube-play","url":"https://youtu.be/OSHWVWz3QWk"}
             ]
-
-            
         }
-        
     ]
 }

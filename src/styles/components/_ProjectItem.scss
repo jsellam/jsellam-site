@@ -1,6 +1,9 @@
 .project-item{
     position:relative;
     margin-bottom:2em;
+    @include mobile{
+        margin-bottom: 4em;
+    }
 }
 
 img{
@@ -24,6 +27,19 @@ img{
         font-size:2em;
         color:$title-color;
     }
+
+    @include mobile{
+        position:static;
+        width:100%;
+        padding:0;
+        padding-top: 2em;
+        padding-bottom:2em;
+        
+        > span{
+            font-size:3em;
+            margin-left:1em;
+        }
+    }
 }
 
 .info-container{
@@ -31,6 +47,11 @@ img{
     left: 0.8em;
     top:4.5em;
     vertical-align: center;
+
+    @include mobile{
+        position:static;
+        width:100%;
+    }
 }
 
 
@@ -44,10 +65,21 @@ img{
     text-transform: uppercase;
     display:inline-block;
     line-height:1.2em;
+    vertical-align: center;
+    
 
     @include mobile{
         font-size:3em;
         display:block;
+        > span{
+            font-size:0.6em;
+            margin-left:1em;
+        }
+
+        > .link{
+            
+        }
+
     }
 }
 
@@ -68,6 +100,10 @@ img{
     }
 
     font-size:1em;
+
+    @include mobile{
+        display:none;
+    }
 }
 
 .tag{

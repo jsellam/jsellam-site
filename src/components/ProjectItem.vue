@@ -1,8 +1,8 @@
 <template>
   <div class="project-item" >
       <div class="wrapper">
-          <img :src="'/static/img/'+item.banner" />
           <div class="title"><span>{{item.title}}</span></div>
+          <img :src="'/static/img/'+item.banner" />
           <div class="info-container">
             <div class="info date"><span>{{item.date}}</span></div>
             <div class="info" v-if="item.links != null && item.links.length > 0">
