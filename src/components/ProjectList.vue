@@ -6,6 +6,7 @@
 
 <script>
 import ProjectItem from '@/components/ProjectItem.vue'
+import store from '@/store/Store'
 export default {
     name:"ProjectList",
 
@@ -21,6 +22,16 @@ export default {
     components:{ProjectItem},
 
 
+    mounted(){
+        store.dispatch("filterProjects",this.$route.params.tag)
+    },
+
+    watch:{
+        "$route.params.tag":(newValue,oldValue)=>{
+           
+            store.dispatch("filterProjects",newValue)
+        }
+    },
 
     data(){
         return {

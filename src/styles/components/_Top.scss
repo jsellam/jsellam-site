@@ -1,0 +1,49 @@
+.top{
+    padding:1em 0em;
+    .twitter-account{
+       text-decoration: none;
+        display:inline-block;
+        .profile-picture{
+            height:3em;
+            width:3em;
+            background-image: url('/static/img/pimp.jpg');
+            background-size: contain;
+            border-radius: 50%;
+            display:inline-block;
+            line-height: 3em;
+            vertical-align: middle;
+        }
+
+        > span{
+            line-height: 3em;
+            vertical-align: middle;
+            color:$title-color;
+            font-family: $font-gotham-medium;
+        }
+    }
+
+    .current-tag{
+        text-decoration: none;
+        float:right;
+        font-family: $font-gotham-medium;
+        font-size:3em;
+        color:$title-color;
+        cursor: pointer;
+
+        i{
+            line-height: 3em;
+            font-size:0.4em;
+            opacity:0;
+            transition:opacity 0.1s;
+        }
+
+        .icon-cancel-circled-outline:before{
+            vertical-align: top;
+        }
+    }
+    .current-tag:hover{
+        i{
+            opacity:1;
+        }
+    }
+}
