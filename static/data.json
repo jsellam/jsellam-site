@@ -1,13 +1,24 @@
 {
     "projects":[
         {
+            "title":"NFT Metaverse Museum",
+            "legend":"NFT gallery made with unity, exported in webgl",
+            "date":"2022-01",
+            "banner":"museum.jpg",
+            "tags":["webgl","unity","nextjs"],
+            "links":[
+                {"type":"icon-youtube-play","url":"https://youtu.be/8pqL3kDHi1k"},
+                {"type":"icon-link","url":"https://nftmetaversemuseum.com/"}
+            ]
+        },
+        {
             "title":"Louis Vuitton - Gift factory",
             "legend":"A Pixijs website for Louis Vuitton",
             "date":"2016-11",
             "banner":"giftfactory.jpg",
             "tags":["webgl","pixijs","frontend"],
             "links":[
-                {"type":"icon-youtube-play","url":"https://youtu.be/8pqL3kDHi1k"}
+                {"type":"icon-youtube-play","url":"https://www.youtube.com/watch?v=KCobzWeGbGI"}
             ]
         },
         {
